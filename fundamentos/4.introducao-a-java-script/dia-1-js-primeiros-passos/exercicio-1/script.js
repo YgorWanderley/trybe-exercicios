@@ -3,7 +3,7 @@ const birthCity = "João Pessoa";
 let birthYear = 1997;
 
 birthYear = 2030;
-birthCity = "'Serraria";
+birthCity = "Serraria";
 
 console.log(myName);
 console.log(birthCity);
