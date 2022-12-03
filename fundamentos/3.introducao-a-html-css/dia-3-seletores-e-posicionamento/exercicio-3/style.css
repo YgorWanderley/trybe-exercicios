@@ -1,0 +1,13 @@
+h1, p {
+    text-align: center;
+}
+ol:hover, ul:hover {
+    background-color: greenyellow;
+}
+li:active {
+    font-size: 22px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li {
+    list-style:none;
+}
