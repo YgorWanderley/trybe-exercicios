@@ -4,3 +4,6 @@ Subtração (a - b)
 Multiplicação (a * b)
 Divisão (a / b)
 Módulo (a % b)
+
+Utilize if/else para escrever um código que retorne o maior de dois números. Defina, no começo do seu código, duas constantes com os valores que serão comparados.
+Utilize if/else para escrever um código que retorne o maior de três números. Defina, no começo do seu código, três constantes com os valores que serão comparados.
