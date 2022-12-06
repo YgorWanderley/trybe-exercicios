@@ -25,3 +25,12 @@ if (x > y && x > z) {
 }else if (z > x && z > y) {
     console.log("O maior número é " + z + " (z)");
 }
+
+const parameter = -1000;
+if (parameter > 0) {
+    console.log("positive");
+} else if (parameter === 0) {
+    console.log("zero");
+} else {
+    console.log("negative");
+}
