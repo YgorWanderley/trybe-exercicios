@@ -1,11 +1,11 @@
 let a = 40;
 let b = 30;
-
 console.log("Soma: " + (a + b));
 console.log("Subtração :" + (a - b));
 console.log("Multiplicação: " + (a * b));
 console.log("Divisão: " + (a / b));
 console.log("Módulo: " + (a % b));
+
 
 const c = 10;
 const d = 20; 
@@ -14,6 +14,7 @@ if (c > d) {
 } else {
     console.log("O maior número é " + d + " (d)");
 }
+
 
 const x = 2;
 const y = 4;
@@ -26,6 +27,7 @@ if (x > y && x > z) {
     console.log("O maior número é " + z + " (z)");
 }
 
+
 const parameter = -1000;
 if (parameter > 0) {
     console.log("positive");
@@ -35,12 +37,12 @@ if (parameter > 0) {
     console.log("negative");
 }
 
+
 const anguloA = 10;
 const anguloB = 70;
 const anguloC = 50;
 let somaDosAngulos = anguloA + anguloB + anguloC;
 let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0;
-
 if (angulosPositivos) {
     if (somaDosAngulos === 180){
         console.log("true");
@@ -50,6 +52,7 @@ if (angulosPositivos) {
 }else {
     console.log("Erro, ângulo inválido");
 }
+
 
 let chessPiece = "Dama";
 switch (chessPiece.toLowerCase()) {
@@ -75,6 +78,7 @@ switch (chessPiece.toLowerCase()) {
         console.log("Erro, peça inválida!");
         break;
 }
+
 
 let grade = 100;
 if (grade < 0 || grade > 100){
