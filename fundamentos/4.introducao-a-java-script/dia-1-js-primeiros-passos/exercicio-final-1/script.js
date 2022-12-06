@@ -35,7 +35,7 @@ if (parameter > 0) {
     console.log("negative");
 }
 
-const anguloA = 60;
+const anguloA = 10;
 const anguloB = 70;
 const anguloC = 50;
 let somaDosAngulos = anguloA + anguloB + anguloC;
@@ -49,4 +49,29 @@ if (angulosPositivos) {
     }
 }else {
     console.log("Erro, ângulo inválido");
-} 
+}
+
+let chessPiece = "Dama";
+switch (chessPiece.toLowerCase()) {
+    case "peão":
+        console.log("Peão -> Apenas uma casa para frente, no primeiro movimento podem ser duas casas.");
+        break;
+    case "cavalo":
+        console.log("Cavalo ->  L pode pular sobre as peças.");
+        break;
+    case "torre":
+        console.log("Torre -> Horizontal e Vertical");
+        break;
+    case "bispo":
+        console.log("Bispo -> Diagonal");
+        break;
+    case "dama":
+        console.log("Dama -> Diagonal, horizontal e vertical");
+        break;
+    case "rei":
+        console.log("Rei -> Uma casa para qualquer direção");
+        break;
+    default:
+        console.log("Erro, peça inválida!");
+        break;
+}
