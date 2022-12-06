@@ -16,3 +16,14 @@ if (x%2 === 1 || y%2 === 1 || z%2 === 1) {
 }else {
     console.log("false");
 }
+
+
+const coustOfProduct = 50;
+const saleValue = 180;
+const coustTotal = coustOfProduct*0.20 + coustOfProduct;
+if (coustOfProduct > 0 && saleValue > 0) {
+    const profit = (saleValue - coustTotal)*1000;
+        console.log("O lucro foi de " + profit);
+}else {
+    console.log("Erro, os valores não podem ser negativos")
+}
