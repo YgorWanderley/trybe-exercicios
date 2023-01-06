@@ -39,5 +39,12 @@ const createDaysOfTheWeek = () => {
 
   // Passo 2
   const createHolidayButton = (buttonName) => {
-    
+    let buttonContainer = document.querySelector(".buttons-container");
+    let newButton = document.createElement("button");
+    let newButtonId = "btn-holiday";
+
+    newButton.innerHTML = buttonName;
+    newButtonId.id = newButtonId;
+    buttonContainer.appendChild(newButton);
   }
+  createHolidayButton("Feriados");
